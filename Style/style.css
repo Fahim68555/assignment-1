@@ -1,7 +1,7 @@
 
   
 *{
-margin:0px ;
+margin:0 auto ;
 font-family: "Fira Sans", serif;
 font-style: normal;
 
@@ -11,18 +11,22 @@ font-style: normal;
 .btn-hover:hover {
     background-color: rgb(85, 137, 145);
     font-size: 16px;
+  
   }
-
+  .shear-heading{
+    font-size: 40px;
+    width: bold;
+    color:rgba(14, 14, 14, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /* nav Style */
 .nav-head{
     display: flex;
     justify-content: space-between;
-   margin: 10px 200px 24px 60px;
+   margin: 10px 250px 5px 100px;
    font-size: 24px;
-   width: bold;
-
-}
+   width: bold;}
 .nav-btn{
     padding: 15px 30px ;
     color:#006A50 ;
@@ -34,14 +38,16 @@ font-style: normal;
 /* nav Banner Section Style */
 .banner-section {
     display: flex;
-    justify-content: space-between;
+    text-align: center;
+    /* justify-content: space-between; */
     background-color:#C6E4D6;
 border-radius: 24px;
-margin: 10px 160px 80px 160px;
-margin-top: 10px;
+/* margin: 10px 160px 80px 160px; */
+margin: 0 auto;
+/* margin-top: 10px; */
 width: 1280px;
 height: 560px;
-padding:80px 100px ;
+/* padding:80px 100px ; */
 
 
 }
@@ -49,21 +55,16 @@ padding:80px 100px ;
     text-align: left;
     margin-left: 60px;
     margin-top: 117px;
-    margin-bottom: 117px;
+    margin-bottom:20px;
     margin-right:64px ;
 
 }
 .sub-header{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
-   margin:117px 64px 16px 40px;
    font-size: 24px;
-   width: medium;
-
-
-
-}
-#banner-ing{
+   width: medium;}
+#banner-img{
     width: 474px;
     height: 400px;
     margin-top: 80px;
@@ -75,7 +76,7 @@ padding:80px 100px ;
     width:622px;
     font-size: 56px;
     font-weight:bold;
-    margin:16px 64px 24px 40px;
+    margin:16px 64px 24px 8px;
     
 }
 .btn{
@@ -84,17 +85,23 @@ padding:80px 100px ;
     border-radius: 10px;
     width: 270px;
     height: 56px;
-    margin: 16px 64px 117px 40px;
+    margin: 40px 64px 117px 8px;
+    border: none;
       
 }
 /* main-style */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 /* Pillars of "Bangladesh 2.0 style */
 .pillars{
-    width: 1280px;
-    height: 224px;
-    padding: 0px 160px 0px 0px;
-    position:160px 0px ;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+    
   
 }
 .pillars-heading{
@@ -102,20 +109,18 @@ padding:80px 100px ;
     height: 48px;
     font-size: 40px;
     font-weight:bold;
-    padding:80px 160px 32px 160px;
+    margin-top: 30px;
+   
 }
   .pillars-content{
     display:flex;
-    justify-content:space-evenly;
-    margin:32px 160px 80px 160px;
+    justify-content:space-around;
     width:1280px;
     height:244px;
     gap:24px;
     position:0px 80px;
- 
-    
- 
-  }
+    margin-top: 20px;
+}
   .content{
    padding: 24px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -140,22 +145,26 @@ padding:80px 100px ;
     font-size: 40px;
     width:bold;
     color:#0E0E0E;
-    margin-left: 160px;
+    margin-top: 35px;
+    
     
 }
 .vf-subheading{
     font-size:16px;
-    padding: 24px 160px 32px 160px;
-    margin-bottom: -15px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+   
 }
 /* The Vision of Future  content Style  */
+.The-vision-of-Future{
+    margin: 0 auto;
+}
 
 .future-content{
     display: flex;
     justify-content:space-evenly;
     width: 1280px;
     height: 325px;
-    padding: 32px 160px 32px 160px;
 }
 .vf-content{
     width: 410px;
@@ -198,5 +207,173 @@ padding:80px 100px ;
                     background-color: rgba(255, 194, 57, 1);
                 }
                 #btn-problem{
-                    margin-top: 20px;
+                    margin-bottom: 20px;
                 }
+                /* Dr.Muhammad Yunus style  */
+
+                .sub-description{
+                  margin: 0 auto;
+                  margin-top: 32px;
+                 }
+                
+                .sub-dep{
+                    /* width: 1280px; */
+                    /* height: 256px; */
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border:1px solid rgba(0, 0, 0, 0.116);
+                }
+                   
+                .sub-para-p{
+                    font-size: 16px;
+                    color: rgba(14, 14, 14, 0.8);
+                     margin-left: 24px;
+                }
+                .dr{
+                    font-size: 20;
+                    width:800px;
+                    margin-left: 24px;
+                    margin-top: 24px;
+                    color: rgba(14, 14, 14, 0.8);
+
+                }
+                .dr-para{
+                    font-size: 16px;
+                    font-weight: 16px;
+                margin-left: 24px;
+                margin-top: 4px;
+                color: rgba(14, 14, 14, 0.6);
+
+                }
+               /* resent news style */
+               .resent-news{
+                margin: 0 auto;
+               }
+              .resent-news-heading{
+                font-size: 40px;
+                width: bold;
+                margin: 0 auto;
+                color: rgba(14, 14, 14, 1);
+              }
+              .resent-news-para{
+                font-size: 16px;
+                color: rgba(14, 14, 14, 0.7);
+              }
+              /* news content-2 style */
+              .news{
+                display: flex;
+                justify-content: space-between;
+                width: 1280px;
+                height: 402px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                padding:10px ;
+                border:1px solid rgba(0, 0, 0, 0.116);
+                margin:0 auto;
+              border-radius: 24px;
+              background-color: rgba(255, 255, 255, 1);
+                
+              }
+              .news-img{
+                width: 408px;
+                height:306px;
+                margin: 48px 32px 48px 48px; 
+
+              }
+              .satelite-img{
+                border-radius:24px;
+              }
+            .news-heading{
+                margin: 56px 48px 12px 32px;
+                font-size: 32px;
+                width: bold;
+                color: rgba(14, 14, 14, 0.8);
+
+            }
+        .al-jazeera{
+            width: 134px;
+            height: 40px;
+            margin: 12px 610px 12px 32px;
+        }
+        .news-sub-para{
+            margin: 5px 60px 12px 32px;
+            width: 744px;
+            height: 24px;
+            font-size: 16px ;
+            color: rgba(14, 14, 14, 0.7);   }
+            .news-para{
+                justify-content: space-evenly;
+                margin-top: 12px;
+                margin-left: 32px;
+                margin-bottom: 12px;
+                font-size:16px;
+                color: rgba(14, 14, 14, 0.7);
+            }
+            .Read-More{
+                background-color: rgba(0, 106, 80, 1);
+                border-radius: 8px;
+                width: 139px;
+                height: 48px;
+                padding: 13px 26px;
+                margin: 32px 605px 56px 32px;
+                color: rgba(255, 255, 255, 1);
+                border: none;
+                 
+            }
+            .news-img-2{  width: 408px;
+                height:306px;
+                margin: 48px 48px 48px 20px;
+
+            }
+            /* Donate section style */
+            .donate{
+            text-align: center;
+                margin: 0 auto;
+               width: 1280px;
+               }
+           .donate-heading{
+            margin-top: 80px;
+            margin-bottom: 24px;
+           }
+           .donate-subtitle{
+            font-size: 16px;
+            color: rgba(14, 14, 14, 0.7);
+           }
+        .donate-2{
+            width: 1071px;
+            margin-top: 32px;
+            display: flex;
+            gap: 24px;
+            color: rgba(255, 255, 255, 1);}
+    .amount {
+        border-radius: 16px;
+        width: 240px;
+        height:128px;
+        border: none;
+        
+    }
+    .btn-hover-2{
+        
+    }
+       .ab{
+        margin-top: 32px;
+        display: flex;
+        text-align: center;
+        width: 1032px;
+        height: 64px;
+        background-color: rgba(14, 14, 14, 0.15);
+        border: none;
+        box-sizing: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+       }
+       .done-btn {
+        display: flex;
+        text-align: center;
+        background-color: rgba(0, 106, 80, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 8px;
+        font-size: 18px;
+        margin-top: 32px;
+        width:151px;
+        height: 56px;
+        border: none;
+       }
