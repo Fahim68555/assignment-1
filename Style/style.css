@@ -4,12 +4,13 @@
 margin:0px ;
 font-family: "Fira Sans", serif;
 font-style: normal;
+
 }
 /* shear style */
 
 .btn-hover:hover {
     background-color: rgb(85, 137, 145);
-    font-size: 18px;
+    font-size: 16px;
   }
 
 
@@ -31,17 +32,17 @@ font-style: normal;
     
 }
 /* nav Banner Section Style */
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: space-between;
     background-color:#C6E4D6;
 border-radius: 24px;
-margin: 160px 80px;
+margin: 10px 160px 80px 160px;
 margin-top: 10px;
 width: 1280px;
 height: 560px;
 padding:80px 100px ;
-position: 160px 0px ;
+
 
 }
 .banner-text{
@@ -86,5 +87,116 @@ position: 160px 0px ;
     margin: 16px 64px 117px 40px;
       
 }
+/* main-style */
 
+/* Pillars of "Bangladesh 2.0 style */
+.pillars{
+    width: 1280px;
+    height: 224px;
+    padding: 0px 160px 0px 0px;
+    position:160px 0px ;
   
+}
+.pillars-heading{
+    width:1280px;
+    height: 48px;
+    font-size: 40px;
+    font-weight:bold;
+    padding:80px 160px 32px 160px;
+}
+  .pillars-content{
+    display:flex;
+    justify-content:space-evenly;
+    margin:32px 160px 80px 160px;
+    width:1280px;
+    height:244px;
+    gap:24px;
+    position:0px 80px;
+ 
+    
+ 
+  }
+  .content{
+   padding: 24px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   border-radius:16px;
+   width:302px;
+   display: 24px;
+   background-color: #f1f1f379;
+   
+   }
+   .pillars-subheading{
+    font-size: 20px;
+    width: bold;
+    margin-top: 24px;
+   }
+   .pillars-para{
+    margin-top: 15px;
+    font-size: 16px;
+   }
+   /* The Vision of Future Style */
+
+   .vf-heading-1 {
+    font-size: 40px;
+    width:bold;
+    color:#0E0E0E;
+    margin-left: 160px;
+    
+}
+.vf-subheading{
+    font-size:16px;
+    padding: 24px 160px 32px 160px;
+    margin-bottom: -15px;
+}
+/* The Vision of Future  content Style  */
+
+.future-content{
+    display: flex;
+    justify-content:space-evenly;
+    width: 1280px;
+    height: 325px;
+    padding: 32px 160px 32px 160px;
+}
+.vf-content{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    gap: 32px 24px 32px 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.color-1{background-color: rgba(198, 228, 214, 1);
+}
+    .color-2{background-color: rgba(247, 235, 207, 1);}
+        .vf-img{
+            width: 64px;
+            height: 64px;
+            padding: 32px 315px 24px 32px;
+        }
+        .vf-heading{
+            font-size: 20px;
+            width: bold;
+            padding: 2px 32px 12px 32px;
+            margin-left: 10px;
+            margin-bottom: 2px;
+        }
+        .vf-para{
+            font-size: 16px;
+                padding: 12px 32px 24px;}
+            .vf-btn {
+                width: 122px;
+                height: 41px;
+                margin-left: 32px;
+                border-radius: 8px  ;
+                background-color: rgba(84, 144, 245, 1);
+                border: none; }
+                .btn-color{
+                    background-color: rgba(9, 161, 92, 1);
+                }
+                .btn-color-2{
+                    background-color: rgba(255, 194, 57, 1);
+                }
+                #btn-problem{
+                    margin-top: 20px;
+                }
