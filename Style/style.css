@@ -15,41 +15,41 @@ font-style: normal;
   }
   .shear-heading{
     font-size: 40px;
-    width: bold;
+    font-weight: bold;
     color:rgba(14, 14, 14, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* nav Style */
+.nav-h3{
+   margin-top: 20px;}
+
 .nav-head{
     display: flex;
     justify-content: space-between;
-   margin: 10px 250px 5px 100px;
-   font-size: 24px;
-   width: bold;}
+    margin: 0 auto;
+    font-size: 24px;
+    width: bold;}
+
 .nav-btn{
     padding: 15px 30px ;
     color:#006A50 ;
     border: 1px solid #006A50 ;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
     
 }
 /* nav Banner Section Style */
 .banner-section {
     display: flex;
     text-align: center;
-    /* justify-content: space-between; */
-    background-color:#C6E4D6;
-border-radius: 24px;
-/* margin: 10px 160px 80px 160px; */
-margin: 0 auto;
-/* margin-top: 10px; */
-width: 1280px;
-height: 560px;
-/* padding:80px 100px ; */
-
-
+   background-color:#C6E4D6;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 1280px;
+  height: 560px;
 }
 .banner-text{
     text-align: left;
@@ -63,13 +63,15 @@ height: 560px;
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
    font-size: 24px;
-   width: medium;}
+   width: medium;
+margin-left: 5px;}
+
 #banner-img{
     width: 474px;
-    height: 400px;
+    margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 80px;
-    position:740px 80px;
+    margin-left: -45px;
     
 }
 .banner-pr-1{
@@ -87,6 +89,8 @@ height: 560px;
     height: 56px;
     margin: 40px 64px 117px 8px;
     border: none;
+    margin-top: 2px;
+    font-size: 18px;
       
 }
 /* main-style */
@@ -99,19 +103,16 @@ main{
 /* Pillars of "Bangladesh 2.0 style */
 .pillars{
     max-width: 1280px;
-    margin: 0 auto;
-    
-    
-  
-}
+    margin: 0 auto;}
+
 .pillars-heading{
     width:1280px;
     height: 48px;
     font-size: 40px;
     font-weight:bold;
-    margin-top: 30px;
-   
-}
+    margin-top: 80px;
+   }
+
   .pillars-content{
     display:flex;
     justify-content:space-around;
@@ -119,52 +120,48 @@ main{
     height:244px;
     gap:24px;
     position:0px 80px;
-    margin-top: 20px;
-}
+    margin-top: 32px;}
+
   .content{
    padding: 24px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    border-radius:16px;
    width:302px;
    display: 24px;
-   background-color: #f1f1f379;
-   
-   }
+   background-color: #f1f1f379;}
+
    .pillars-subheading{
     font-size: 20px;
     width: bold;
-    margin-top: 24px;
-   }
+    margin-top: 24px;}
+
    .pillars-para{
     margin-top: 15px;
-    font-size: 16px;
-   }
-   /* The Vision of Future Style */
+    font-size: 16px;}
 
+   /* The Vision of Future Style */
    .vf-heading-1 {
     font-size: 40px;
     width:bold;
     color:#0E0E0E;
-    margin-top: 35px;
-    
-    
-}
+    margin-top: 80px;}
+
 .vf-subheading{
     font-size:16px;
-    margin-top: 10px;
-    margin-bottom: 24px;
-   
-}
+    margin-top: 24px;
+    margin-bottom: 24px;}
+
 /* The Vision of Future  content Style  */
 .The-vision-of-Future{
-    margin: 0 auto;
-}
+    margin: 0 auto;}
+
 
 .future-content{
     display: flex;
     justify-content:space-evenly;
     width: 1280px;
     height: 325px;
+    margin-top: 32px;
 }
 .vf-content{
     width: 410px;
@@ -172,11 +169,10 @@ main{
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
     gap: 32px 24px 32px 160px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
-}
-.color-1{background-color: rgba(198, 228, 214, 1);
-}
+.color-1{background-color: rgba(198, 228, 214, 1);}
+
     .color-2{background-color: rgba(247, 235, 207, 1);}
         .vf-img{
             width: 64px;
@@ -210,30 +206,35 @@ main{
                     margin-bottom: 20px;
                 }
                 /* Dr.Muhammad Yunus style  */
-
+        
                 .sub-description{
                   margin: 0 auto;
                   margin-top: 32px;
+                  background-image: url(../assets/quote-bg.png);
+                  background-repeat: no-repeat;
+                  background-position: 20px 10px;
+                
                  }
                 
                 .sub-dep{
-                    /* width: 1280px; */
-                    /* height: 256px; */
                     border-radius: 10px;
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                     border:1px solid rgba(0, 0, 0, 0.116);
+                    
                 }
                    
                 .sub-para-p{
                     font-size: 16px;
                     color: rgba(14, 14, 14, 0.8);
                      margin-left: 24px;
+                     margin-top: 38px;
+                     margin-left: 24px;
                 }
                 .dr{
                     font-size: 20;
                     width:800px;
                     margin-left: 24px;
-                    margin-top: 24px;
+                    margin-top: 10px;
                     color: rgba(14, 14, 14, 0.8);
 
                 }
@@ -241,7 +242,8 @@ main{
                     font-size: 16px;
                     font-weight: 16px;
                 margin-left: 24px;
-                margin-top: 4px;
+                margin-top: 5px;
+                margin-bottom: 48px;
                 color: rgba(14, 14, 14, 0.6);
 
                 }
@@ -254,13 +256,13 @@ main{
                 width: bold;
                 margin: 0 auto;
                 color: rgba(14, 14, 14, 1);
-                margin-top: 25px;
+                margin-top: 80px;
                 margin-left: 165px;
               }
               .resent-news-para{
                 font-size: 16px;
                 color: rgba(14, 14, 14, 0.7);
-                margin-top: 20px;
+                margin-top: 24px;
                 margin-left: 165px;
               }
               /* news content-2 style */
@@ -275,7 +277,7 @@ main{
                 margin:0 auto;
               border-radius: 24px;
               background-color: rgba(255, 255, 255, 1);
-              margin-top: 15px;
+              margin-top: 32px;
                 
               }
               .news-img{
@@ -338,6 +340,9 @@ main{
            .donate-heading{
             margin-top: 80px;
             margin-bottom: 24px;
+            font-size: 40px;
+            width: bold;
+
            }
            .donate-subtitle{
             font-size: 16px;
@@ -354,9 +359,18 @@ main{
         width: 240px;
         height:128px;
         border: none;
-        
     }
-    .btn-hover-2{
+    #hover-color{
+        background-color: rgba(198, 228, 214, 1);
+       
+    }
+    #hover-color:hover{
+        background-color: rgb(108, 216, 57);
+    }
+        
+    .amount:hover{
+        background-color: #a2e284;
+        font-size: 47px;
         
     }
        .ab{
@@ -365,10 +379,13 @@ main{
         text-align: center;
         width: 1032px;
         height: 64px;
-        background-color: rgba(14, 14, 14, 0.15);
+        background-color:rgba(255, 255, 255, 1);
         border: none;
         box-sizing: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
        }
        .done-btn {
         display: flex;
@@ -383,9 +400,7 @@ main{
         border: none;
        }
        .last-20hours{
-        /* display: flex; */
-        /* justify-content: center; */
-        background-color: rgba(198, 228, 214, 1);
+       background-color:rgba(198, 228, 214, 1);
         width: 1280px;
         height: 395px;
         border-radius: 24px;
@@ -402,10 +417,11 @@ main{
        .last-heading{
         text-align: center;
        padding-top: 80px;
-        font-size: 40;
-        width: bold;
-        width: 622px;
+       width: 622px;
         height: 48px;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 16px;
        
        }
        .last-para{
@@ -414,6 +430,7 @@ main{
         height: 48px;
     text-align: center;
         display: flex;
+        color: rgba(14, 14, 14, 0.7);
        }
        
 .last-btn{
@@ -435,19 +452,52 @@ main{
     color: rgba(14, 14, 14, 0.3);
    
 }
-       .last-paragrap{
+.Subscribe{
         display: flex;
-        justify-content: center;
-        font-size: 16px;
-        margin-top: 24px;
+        text-align: center;
+        
        }
-       .subscribe-btn {
-        width: 150px;
-        height: 56px;
-        border: none;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        background-color: rgba(0, 106, 80, 1);
-        border-radius: 16px;
+       .input{border: none;
+padding: 30px;
+padding-left: 50px;
+padding-right:220px ;
+border-radius: 20px 0px 0px 20px;
+width: 600px;
+height: 12px;
+font-size: 18px;}
 
-    
+       .Subscribe{
+        margin-top: 20px;
+        text-align: center;
+      
        }
+     .last-paragrap{
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+     }
+     .submit{
+    width: 150px;
+    height: 72px;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 0px 20px 20px 0px;
+        background-color: #006A50;
+        color: white;
+        font-size: 18px;
+       margin-left: -5px;
+        
+     }
+     .submit:hover{
+        background-color: #d82020;
+        font-size: 20px;
+     }
+     .done-btn:hover{
+        background-color: #ffffff;
+        color: #0E0E0E;
+        font-size: 22px;
+     }
+     .last-paragrap p {
+        color: rgba(14, 14, 14, 0.7);
+     }
+     
